@@ -1,0 +1,16 @@
+{
+  "name": "browserstack-gh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe browserstack:ie@11:Windows 10' test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.12.0",
+    "testcafe-browser-provider-browserstack": "^1.13.2-alpha.1"
+  }
+}
